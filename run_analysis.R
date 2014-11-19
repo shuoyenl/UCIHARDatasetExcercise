@@ -48,4 +48,5 @@ filtereddata <- alldata[, colfilter]
 # and each subject
 tidydata = aggregate(filtereddata[,!colnames(filtereddata) %in% c("Activity", "Subject")], by=list(Activity = filtereddata$Activity, Subject=filtereddata$Subject), FUN=mean)
 
-tidydata
+# write the tidy data to a txt file with write.table() using row.name=FALSE
+write.table(tidydata, file="tidydata.txt", row.name=FALSE)
