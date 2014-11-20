@@ -2,7 +2,7 @@
 This is the codebook of the tidydata.
 
 ###Source Data
-The tidy data set is derived from [Human Activity Recognition Using Smartphones Dataset Version 1.0]. See *UCI HAR Dataset/features_info.txt* in the source data for more details about how the data are collected and prepared.
+The tidy data set is derived from [Human Activity Recognition Using Smartphones Dataset Version 1.0]. See **UCI HAR Dataset/features_info.txt** in the source data for more details about how the data are collected and prepared.
 
 
 ###tidydata
