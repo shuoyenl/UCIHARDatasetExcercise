@@ -41,7 +41,7 @@ alldata <- rbind(test, train)
 
 # extract only the measurements on the mean and standard deviation for each 
 # measurement     
-colfilter <- grepl("-mean\\(\\)-|-std\\(\\)-", features, TRUE)
+colfilter <- grepl("-mean\\(\\)|-std\\(\\)", features, TRUE)
 filtereddata <- alldata[, colfilter]
 
 # create a tidy data set with the average of each variable for each activity 
